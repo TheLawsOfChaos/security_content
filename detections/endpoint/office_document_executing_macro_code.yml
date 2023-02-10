@@ -53,7 +53,7 @@ tags:
   - T1566
   - T1566.001
   observable:
-  - name: dest
+  - name: Computer
     type: Endpoint
     role:
     - Victim
