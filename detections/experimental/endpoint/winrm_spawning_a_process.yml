@@ -57,7 +57,7 @@ tags:
   impact: 50
   risk_score: 25
   context: []
-  message: tbd
+  message: WinRM launched $process_name$ on $dest$ by $user$
   observable:
   - name: user
     type: User
