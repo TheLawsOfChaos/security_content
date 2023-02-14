@@ -41,10 +41,6 @@ tags:
   - T1218
   - T1218.003
   observable:
-  - name: user
-    type: User
-    role:
-    - Victim
   - name: Computer
     type: Hostname
     role:
