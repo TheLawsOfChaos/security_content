@@ -39,8 +39,12 @@ tags:
   - T1070.004
   - T1070
   observable:
-  - name: User
+  - name: user
     type: User
+    role:
+    - Victim
+  - name: dest
+    type: Hostname
     role:
     - Victim
   product:
