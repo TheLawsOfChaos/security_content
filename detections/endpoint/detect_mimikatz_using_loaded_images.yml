@@ -47,7 +47,7 @@ tags:
   kill_chain_phases:
   - Actions on Objectives
   message: A process, $Image$, has loaded $ImageLoaded$ that are typically related
-    to credential dumping on $Computer$. Review for further details.
+    to credential dumping on $dest$. Review for further details.
   mitre_attack_id:
   - T1003.001
   - T1003
@@ -55,7 +55,7 @@ tags:
   - DE.AE
   - DE.CM
   observable:
-  - name: Computer
+  - name: dest
     type: Hostname
     role:
     - Victim
