@@ -55,10 +55,6 @@ tags:
   - DE.AE
   - DE.CM
   observable:
-  - name: user
-    type: User
-    role:
-    - Victim
   - name: Computer
     type: Hostname
     role:
